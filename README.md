@@ -29,6 +29,3 @@ The CISLR dataset can be downloaded using the following [🔗 Download Link](htt
 
 ## Citation
     Abhinav Joshi, Ashwani Bhat, Pradeep S, Priya Gole, Shashwat Gupta, Shreyansh Agarwal, and Ashutosh Modi. 2022. CISLR: Corpus for Indian Sign Language Recognition. In Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing, pages 10357–10366, Abu Dhabi, United Arab Emirates. Association for Computational Linguistics.
-
-## Acknowledgments
-This project was a part of IIT Kanpur's [SURGE](https://surge.iitk.ac.in/) Initiative.
