@@ -11,7 +11,7 @@ This repository contains the Indian Sign Language Dataset proposed in the follow
 
 ## Download Dataset
 
-The CISLR dataset can be downloaded using the following [🔗 Download Link](https://iitk-my.sharepoint.com/:u:/g/personal/ashutoshm_iitk_ac_in/EZp-cgk7Ak1LlJMkwKRtoloBl-tADMzABtHM87aK4TTePw?e=lbKX1g). The dataset directory structure is as follows
+The CISLR dataset can be downloaded using the following [🔗 Download Link](https://forms.gle/tjW26WdMFzNvobN37). The dataset directory structure is as follows
 
     .
     ├── dataset.csv                 # list of all videos with categorical annotations
@@ -26,6 +26,33 @@ The CISLR dataset can be downloaded using the following [🔗 Download Link](htt
     └── I3D_features.pkl            # extracted Inception3D features
 
 
+## License
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+The CISLR dataset follows [CC-BY-NC](CC-BY-NC) license. Thus, users can share and adapt our dataset if they give credit to us and do not use our dataset for any commercial purposes.
 
 ## Citation
-    Abhinav Joshi, Ashwani Bhat, Pradeep S, Priya Gole, Shashwat Gupta, Shreyansh Agarwal, and Ashutosh Modi. 2022. CISLR: Corpus for Indian Sign Language Recognition. In Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing, pages 10357–10366, Abu Dhabi, United Arab Emirates. Association for Computational Linguistics.
+```
+@inproceedings{2022.emnlp-main.707,
+    title = “CISLR: Corpus for Indian Sign Language Recognition”,
+    author = “Joshi, Abhinav and 
+              Bhat, Ashwani and 
+              S, Pradeep and 
+              Gole, Priya and 
+              Gupta, Shashwat and 
+              Agarwal, Shreyansh and 
+              Modi, Ashutosh”,
+    booktitle = “Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing (EMNLP 2022)“,
+    month = December,
+    year = “2021”,
+    pages = "10357–10366"
+    address = “Abu Dhabi, United Arab Emirates“,
+    publisher = “Association for Computational Linguistics”,
+    abstract = “Indian Sign Language, though used by a diverse community, still lacks well-annotated resources for developing systems that would enable sign language processing. In recent years researchers have actively worked for sign languages like American Sign Languages, however, Indian Sign language is still far from data-driven tasks like machine translation. To address this gap, in this paper, we introduce a new dataset CISLR (Corpus for Indian Sign Language Recognition) for word-level recognition in Indian Sign Language using videos. The corpus has a large vocabulary of around 4700 words covering different topics and domains. Further, we propose a baseline model for word recognition from sign language videos. To handle the low resource problem in the Indian Sign Language, the proposed model consists of a prototype-based one-shot learner that leverages resource rich American Sign Language to learn generalized features for improving predictions in Indian Sign Language. Our experiments show that gesture features learned in another sign language can help perform one-shot predictions in CISLR.“,
+}
+```
+
+
+
+
+
+
